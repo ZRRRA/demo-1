@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BYD auto</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            margin-left: -4.5px;
+            text-decoration:none;
+        }
+        header{
+            position:relative;
+            width:100%;
+            height:88px;
+            background:url("dh-bg.png");
+            min-width:1500px;
+            opacity: 0.85;
+        }
+        body{
+            background-image: url("bg.jpg") ;
+            height:1000px;
+            width:90%;
+        }
+        #nav ul li{
+            list-style-type:none;
+            float:left;
+            padding: 0 30px;
+        }
+        .list1{
+            line-height:74px;
+            color: #27ff14;
+            font-weight:bold;
+            text-align:center;
+        }
+        .list2{
+            line-height:74px;
+            color: #27ff14;
+            font-size:small;
+        }
+        footer{
+            position:fixed;
+            top: 90%;
+            width:100%;
+            height:88px;
+            background:url("dh-bg.png");
+            min-width:1367px;
+            opacity: 0.9;
+        }
+        .subnav{
+            left:-999em;/*隐藏状态*/
+            position:absolute;
+            z-index: 1000;
+        }
+        li:hover .subnav{
+            left:15em;/*显示状态*/
+        }
+        .submenu1{
+            left:-999em;/*隐藏状态*/
+            position:absolute;
+            z-index: 1000;
+        }
+        li:hover .submenu1{
+            left:27em;/*显示状态*/
+        }
+        .submenu2{
+            left:-999em;/*隐藏状态*/
+            position:absolute;
+            z-index: 1000;
+        }
+        li:hover .submenu2{
+            left:35em;/*显示状态*/
+        }
+        .media ul li{
+            list-style-type:none;
+            position: relative;
+            float:right;
+            padding: 8px 8px;
+        }
+        .linking{
+            position:absolute;
+            float:left;
+            margin-left: 28px;
+            margin-top: 9px;
+            margin-right: 900px;
+            font-size:13px;
+            font-weight: bold;
+
+        }
+    </style>
+
+
+</head>
+<body>
+<header>
+    <nav role="navigation" id="nav">
+        <ul>
+            <li><a href="http://www.byd.com/" class="logo"><img src="logo.png" class="logo-pic"></a></li>
+
+            <li>
+                <a href="/Eletric Taxis/" class="list1" >Eletric Taxis</a>
+                <ul class="subnav">
+                    <li><a href="/Eletric Taxis/e6.html"><img src="e6.png"> </a> </li>
+                </ul>
+            </li>
+            <li>
+                <a href="/Electric Buses/" class="list1">Electric Buses</a>
+                <ul class="submenu1">
+                    <a href="/Electric Buses/e6.html"><img src="30ft.png"> </a>
+                    <a href="/Electric Buses/e6.html"><img src="35ft.png"> </a>
+                    <a href="/Electric Buses/e6.html"><img src="40ft.png"> </a>
+                    <a href="/Electric Buses/e6.html"><img src="60ft.png"> </a>
+                </ul>
+            </li>
+            <li>
+                <a href="/Electric Coaches/" class="list1">Electric Coaches</a>
+                <ul class="submenu2">
+                    <a href="/Electric Coaches/e6.html"><img src="23ft.png"> </a>
+                    <a href="/Electric Coaches/e6.html"><img src="401.png"> </a>
+                    <a href="/Electric Coaches/e6.html"><img src="45ft.png"> </a>
+                </ul>
+            </li>
+            <li>
+                <a href="/" class="list2">Charger</a>
+            </li>
+            <li>
+                <a href="/" class="list2">News Center</a>
+            </li>
+            <li>
+                <a href="/" class="list2">About BYD</a>
+            </li>
+
+        </ul>
+    </nav>
+
+</header>
+<footer>
+    <div class="media"><ul>
+        <li><a target="_blank" href="http://www.facebook.com/bydcompany"><img src="facebook.png"/></a></li>
+        <li><a target="_blank" href="http://twitter.com/bydcompany"><img src="twitter.png" /></a></li>
+        <li><a target="_blank" href="http://www.youtube.com/bydcompany"><img src="youtube.png" /></a></li>
+        <li><a target="_blank" href="http://www.linkedin.com/company/byd"><img src="linkedin.png" /></a></li>
+        <li><a target="_blank" href="https://plus.google.com/108410823800418490203"><img src="google.png" /></a></li>
+    </ul>
+    </div>
+
+
+<div class="linking">
+     <marquee behavior=scroll scrollamount=6 onmouseover=this.stop() onmouseout=this.start()>
+         <a target="_blank" href="http://www.byd.com/news/news-314.html" >BYD’s Role is Revealed at COP21 in Paris</a>
+         &amp&amp&amp&amp&amp&amp&amp&amp&amp
+         <a target="_blank" href="http://www.byd.com/news/news-313.html">As 2015 Nears its End, BYD Becomes Biggest EV Maker Worldwide</a>
+         &amp&amp&amp&amp&amp&amp&amp&amp&amp
+         <a target="_blank" href="http://www.byd.com/news/news-312.html">BYD Statement to the News Media</a>
+         &amp&amp&amp&amp&amp&amp&amp&amp&amp
+         <a target="_blank" href="http://www.byd.com/news/news-310.html">Chinese President views BYD world leading electric double decker</a>
+         &amp&amp&amp&amp&amp&amp&amp&amp&amp
+         <a target="_blank" href="http://www.byd.com/news/news-298.html">C40 Partners with Global Electric Vehicle Giant BYD</a>
+     </marquee>
+    </div>
+
+</footer>
+</body>
+</html>
+
